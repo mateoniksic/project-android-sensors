@@ -1,5 +1,50 @@
-﻿@import '@nativescript/theme/css/core.css';
-@import '@nativescript/theme/css/default.css';
+﻿@import "@nativescript/theme/css/core.css";
+@import "@nativescript/theme/css/default.css";
 
 /* Place any CSS rules you want to apply on both iOS and Android here.
 This is where the vast majority of your CSS code goes. */
+.page-sensor {
+    background-color: #8ecae6;
+}
+
+.page-sensor__action-bar {
+    background-color: #023047;
+}
+
+.page-sensor__label {
+    color: white;
+    font-size: 21;
+    font-weight: bold;
+}
+
+.mywidget {
+    vertical-align: top;
+}
+
+.mywidget .title {
+    font-size: 16;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 24;
+    margin-bottom: 60;
+}
+
+.mywidget .label {
+    background-color: #ffb703;
+
+    color: #023047;
+    font-size: 18;
+    font-weight: bold;
+
+    border-color: #fb8500;
+    border-width: 2;
+    border-radius: 8;
+
+    padding: 60;
+    margin: 8;
+
+    text-align: center;
+
+    height: 160;
+    width: 240;
+}

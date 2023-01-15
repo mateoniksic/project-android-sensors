@@ -1,0 +1,14 @@
+<Page class="page-sensor" navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="page-sensor__action-bar">
+        <Label class="page-sensor__label" text="Device Position Sensor" />
+    </ActionBar>
+
+    <StackLayout class="mywidget" orientation="vertical">
+        <Label class="title" text="Author: Mateo Niksic" textWrap="true" />
+        <Label class="label" text="{{ x }}" textWrap="true" translateX="{{ tx }}" translateY="{{ ty }}"></Label>
+        <Label class="label" text="{{ y }}" textWrap="true" translateX="{{ tx }}" translateY="{{ ty }}"></Label>
+        <Label class="label" text="{{ z }}" textWrap="true" translateX="{{ tx }}" translateY="{{ ty }}"></Label>
+    </StackLayout>
+
+</Page>
