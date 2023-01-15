@@ -1,4 +1,4 @@
-# PROJECT DOCKER
+# PROJECT ANDROID SENSORS
 Nativescript application that uses nativescript-accelerometer to access device sensors.
 
 ## Instructions to start the application
